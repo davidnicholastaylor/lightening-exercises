@@ -12,9 +12,10 @@
 // SLOW DOWN!
 
 function go(direction, speed) {
-    console.log(`The car is moving ${direction} at ${speed} mph`)
     if (speed > 75) {
-        console.log(`SLOW DOWN!`)
+        console.log(`The car is moving ${direction} at ${speed} mph. SLOW DOWN!`)
+    } else {
+        console.log(`The car is moving ${direction} at ${speed} mph. You're good.`)
     }
 }
 
