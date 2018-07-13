@@ -20,3 +20,19 @@
 // }
 
 // go("up", 85);
+
+// 1. Create a function that logs the result of adding two numbers that were passed in as arguments.
+// 2. Create another function that logs the result of subtracting two numbers that were passed in as arguments.
+// 3. Invoke each function a couple times with different argument values.
+
+function add(num1, num2) {
+    console.log(num1 + num2);
+}
+
+add(2, 1);
+
+function subtract(num1, num2) {
+    console.log(num1 - num2);
+}
+
+subtract(6, 2);
